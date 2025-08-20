@@ -12,7 +12,7 @@ function EditStu() {
     age: "",
   });
 
-  // 1️⃣ Move fetch function above useEffect
+
   const fetchStu = async () => {
     try {
       const res = await axios.get(`http://localhost:4000/getbyid/${id}`);
